@@ -1,0 +1,378 @@
+/*
+ Theme Name:     Vast Abrupt Theme
+ Description:    Theme for vastabrupt.com
+ Author:         A Nameless Horror
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Almendra+Display|Astloch|Geostar+Fill|Iceland|MedievalSharp|Nosifer|UnifrakturMaguntia|Geo|Monda|UnifrakturCook:700');
+
+body{
+	font-family: 'Monda', sans-serif;
+	font-size: 15px;
+	overflow-x: hidden;
+}
+
+li{
+	font-size: 14px;
+	margin-bottom: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-left: 10px;
+}
+
+blockquote {
+margin: 2.5em 0 1em 45px;
+padding: 8px;
+line-height: 25px;
+font-size: 14px !important;
+color: #adadad;
+font-style: normal;
+}
+
+
+.navigation-top{
+	border-color: #FF0000;
+	border-bottom-width: 5px;
+	font-family: 'MedievalSharp', cursive;
+	font-size: 15px;
+}
+
+.site-branding{
+	margin-bottom: 40px;
+}
+
+.site-footer{
+  border-color: #FF0000;
+	border-width: 2px;
+	background-color: #232323;
+		background-image: url( "https://vastabrupt.com/wp-content/uploads/2017/12/fleshgu.gif");
+	background-attachment: fixed;
+}
+
+.site-title{
+	font-style: italic;
+	font-weight: lighter;
+	letter-spacing: 15px;
+}
+
+.entry-header{
+	background-image: url( "https://vastabrupt.com/wp-content/uploads/2017/12/flesh4.gif");
+	background-attachment: fixed;
+}
+
+.entry-title {
+	font-family: 'Iceland',    cursive;
+	letter-spacing: 1px;
+	padding: 30px;
+}
+
+.page-title{
+font-family: 'UnifrakturMaguntia', cursive;
+	display: none;
+}
+
+.entry-meta{
+	text-align: right;
+font-family: 'MedievalSharp', cursive;
+	padding: 10px;
+}
+
+.entry-content{
+	padding: 40px 20px 0px 20px;
+}
+
+.entry-summary{
+	padding: 40px 20px 0px 20px;
+}
+
+.entry-footer{
+	padding: 20px 20px 20px 20px;
+	font-family: 'MedievalSharp', cursive;
+}
+
+.post-thumbnail{
+	margin: -15px;
+	
+}
+
+.wp-post-image{
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+}
+
+.single-featured-image-header{
+	margin: -3px;
+}
+
+.site-content-contain{
+	background-color: #333328;
+	background-image:url( "https://vastabrupt.com/wp-content/uploads/2017/12/lobsy.gif");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.post{
+	background-color: #202020;
+	margin: 5px 2px 15px 0px;
+	border-style: solid;
+	border-color: #ff0000;
+	border-width: 1px;
+	border-bottom-width: 10px;
+	float: none !important;
+}
+
+input.search-field{
+	border:1px solid red;
+	border-radius: 0px;
+}
+
+.nav-title{
+	font-family: 'Iceland', cursive;
+}
+
+.nav-subtitle{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
+
+.comment-subscription-form{
+	font-family: 'Iceland', cursive;
+	letter-spacing: 1px;
+}
+
+.comment-reply-title{
+	font-family: 'Iceland', cursive;
+	letter-spacing: 5px;
+}
+
+.comment-form-comment{
+	font-family: 'MedievalSharp', cursive;
+	letter-spacing: 5px;
+}
+
+button.menu-toggle{
+	font-family: 'Iceland', cursive;
+	font-size: 15px;
+		letter-spacing: 2px;
+}
+
+.site-title {
+	font-style: normal;
+}
+
+@media screen and (min-width: 48em)
+{ .post {
+	width: 85% !important;
+	}}
+
+.single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary {
+	max-width: 1280px;
+}
+.menu-toggle{color: #ee0;}
+
+#post-2 .entry-header {
+	margin-bottom: 0;
+}
+
+.entry-content {
+	padding-top: 10px;
+}
+
+.dkpdf-button-container {
+	padding-top: 5px;
+}
+
+@media screen and (min-width: 48em) { .blog .site-main > article, .archive .site-main > article, .search .site-main > article, .infinite-wrap > article {
+    padding-bottom: 1em;
+	}
+}
+
+@media screen and (min-width: 48em) { 	.site-content {
+    padding: 3.5em 0 0;
+	}
+}
+
+@media screen and (min-width: 48em) { 
+	.page-box {
+		width: 85%;
+	}
+}
+
+.wp-post-image {
+	margin-bottom: 25px;
+}
+
+.qtip-content a {
+	color: #333;
+}
+
+h2.comments-title {
+	font-size: 0.8125rem;
+	font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+.nav-subtitle {
+	text-transform: none;
+}
+
+.page-numbers.current {
+	background: red;
+	font-family: 'UnifrakturMaguntia', cursive;
+}
+
+/*series styling*/
+
+.seriesmeta {
+	background-color: transparent;
+	color: #999;
+}
+.seriesmeta a {
+	color: #bbb;
+}
+.series-nav-left {
+	padding-bottom: 10px;
+}
+.series-nav-right {
+	text-align: right;
+}
+.page-header {
+	margin-bottom: 0 !important;
+}
+.taxonomy-description {
+	font-size: 1.05em;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-color: #202020;
+	border: 1px solid #f00;
+	color: #fff;
+}
+
+@media screen and (min-width: 48em) { 
+.taxonomy-description {
+		width: 85%;
+}} 
+.taxonomy-description a {
+	text-decoration: underline;
+}
+
+/*series TOC*/
+.serieslist-box{
+	background: transparent;
+	border: 0;
+	padding-left: 3em;
+	padding-right: 3em;
+}
+.serieslist-box {
+	max-width: 700px;
+}
+#primary.site-content {
+	padding-top: 0;
+}
+@media screen and (min-width: 48em) { .serieslist-box {
+	max-width: 1000px;
+}}
+.serieslist-content h1 {
+	display: none;
+}
+.serieslist-box hr {
+	display: none;
+}
+.serieslist-content h2 {
+	font-family: 'Iceland', cursive;
+	font-size: 2em;
+	margin-bottom: -10px;
+}
+.serieslist-content {
+	color: #ccc;
+	font-size: 1em;
+	border: 1px solid #f00;
+	background-color: #202020;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.serieslist-content h2 a::before {
+	content: ">>";
+}
+.serieslist-content a {
+	padding-bottom: 2px;
+  border-bottom: 2px solid #fff;
+}
+.serieslist-content a:hover {
+	border-bottom: 2px solid #fa6060
+}
+
+/*search bar*/
+.search-field {
+	font-family: 'MedievalSharp', cursive;
+	font-size: 1em;
+}
+.search-field::placeholder {
+	font-family: 'MedievalSharp', cursive;
+}
+.search-form button {
+	background-color: #444;
+}
+.search-form button:hover {
+	background-color: #f00;
+}
+svg.icon.icon-search {
+	color: #000;
+}
+svg.search-icon {
+	fill: #fff;
+	-webkit-transition:.25s;
+	transition:.25s;
+}
+.astm-search-menu:hover svg.search-icon {
+	fill: #f00;
+}
+.search-form .search-submit {
+	padding: 0.3em 0.5em;
+}
+.search-form .search-submit .icon {
+	height: 18px;
+	top: -2px;
+}
+.astm-search-menu {
+	top: 5px;
+	margin: 0;
+	padding-left: 25px;
+}
+@media screen and (min-width: 48em) and (max-width: 910px) {
+ .astm-search-menu form {
+    left: inherit;
+}}
+@media screen and (max-width: 48em) {
+ .astm-search-menu form {
+    left: 0;
+}}
+@media screen and (min-width: 48em) and (max-width: 845px) {
+	li.astm-search-menu {
+		display: none;
+	}
+}
+
+/*hide titles*/
+#post-2 h2 { display: none; }
+#post-48 .entry-header { display: none; }
+#post-3 .entry-header { display: none; }
+
+/*FONTS
+font-family: 'Iceland', cursive;
+font-family: 'UnifrakturMaguntia', cursive;
+font-family: 'Nosifer', cursive;
+font-family: 'Geostar Fill', cursive;
+font-family: 'Astloch', cursive;
+font-family: 'Almendra Display', cursive;
+font-family: 'MedievalSharp', cursive;
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Geo', sans-serif;*/
+
+/* custom-colors-css */
+.entry-content a img,.widget a img{-webkit-box-shadow:0 0 0 8px #232323;box-shadow:0 0 0 8px #232323}.entry-title a,.entry-meta a,.blog .entry-meta a.post-edit-link,.archive .entry-meta a.post-edit-link,.search .entry-meta a.post-edit-link,.page-links a,.page-links a .page-number,.entry-footer a,.entry-footer .cat-links a,.entry-footer .tags-links a,.edit-link a,.post-navigation a,.logged-in-as a,.comment-navigation a,.comment-metadata a,.comment-metadata a.comment-edit-link,.comment-reply-link,a .nav-title,.pagination a,.comments-pagination a,.widget .widget-title a,.widget ul li a,.site-footer .widget-area ul li a,.site-info a,.widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4 a,.site-footer .widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4 a,div#jp-relatedposts .jp-relatedposts-post-title a{-webkit-box-shadow:inset 0 -1px 0 rgba(35,35,35,1);box-shadow:inset 0 -1px 0 rgba(35,35,35,1)}.entry-content a,.entry-summary a,.widget a,.site-footer .widget-area a,.posts-navigation a,.widget_authors a strong{-webkit-box-shadow:inset 0 -1px 0 currentColor;box-shadow:inset 0 -1px 0 currentColor}.entry-content a:focus,.entry-content a:hover,.entry-summary a:focus,.entry-summary a:hover,.widget a:focus,.widget a:hover,.site-footer .widget-area a:focus,.site-footer .widget-area a:hover,.posts-navigation a:focus,.posts-navigation a:hover,.comment-metadata a:focus,.comment-metadata a:hover,.comment-metadata a.comment-edit-link:focus,.comment-metadata a.comment-edit-link:hover,.comment-reply-link:focus,.comment-reply-link:hover,.widget_authors a:focus strong,.widget_authors a:hover strong,.entry-title a:focus,.entry-title a:hover,.entry-meta a:focus,.entry-meta a:hover,.page-links a:focus .page-number,.page-links a:hover .page-number,.entry-footer a:focus,.entry-footer a:hover,.entry-footer .cat-links a:focus,.entry-footer .cat-links a:hover,.entry-footer .tags-links a:focus,.entry-footer .tags-links a:hover,.post-navigation a:focus,.post-navigation a:hover,.pagination a:not(.prev):not(.next):focus,.pagination a:not(.prev):not(.next):hover,.comments-pagination a:not(.prev):not(.next):focus,.comments-pagination a:not(.prev):not(.next):hover,.logged-in-as a:focus,.logged-in-as a:hover,a:focus .nav-title,a:hover .nav-title,.edit-link a:focus,.edit-link a:hover,.site-info a:focus,.site-info a:hover,.widget .widget-title a:focus,.widget .widget-title a:hover,.widget ul li a:focus,.widget ul li a:hover,.widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4 a:hover,.widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4 a:focus,.site-footer .widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4 a:hover,.site-footer .widget_jetpack_display_posts_widget .jetpack-display-remote-posts h4 a:focus,div#jp-relatedposts .jp-relatedposts-post-title a:hover,div#jp-relatedposts .jp-relatedposts-post-title a:focus,div#jp-relatedposts .jp-relatedposts-post:hover .jp-relatedposts-post-title a,div#jp-relatedposts .jp-relatedposts-post:focus .jp-relatedposts-post-title a{-webkit-box-shadow:inset 0 0 0 rgba(0,0,0,0),0 3px 0 currentColor;box-shadow:inset 0 0 0 rgba(0,0,0,0),0 3px 0 currentColor}.menu-toggle,.menu-toggle:hover,.menu-toggle:focus,.dropdown-toggle,.dropdown-toggle:hover,.dropdown-toggle:focus,.menu-scroll-down,.menu-scroll-down:hover,.menu-scroll-down:focus{background-color:transparent}.gallery-item a,.gallery-item a:hover,.gallery-item a:focus,.widget .tagcloud a,.widget .tagcloud a:focus,.widget .tagcloud a:hover,.widget.widget_tag_cloud a,.widget.widget_tag_cloud a:focus,.widget.widget_tag_cloud a:hover,.wp_widget_tag_cloud a,.wp_widget_tag_cloud a:focus,.wp_widget_tag_cloud a:hover,.widget_authors>ul>li>a,.widget_authors>ul>li>a:hover,.widget_authors>ul>li>a:focus,.site-footer .widget_authors>ul>li>a,.site-footer .widget_authors>ul>li>a:hover,.site-footer .widget_authors>ul>li>a:focus,.entry-footer .edit-link a.post-edit-link:focus,.entry-footer .edit-link a.post-edit-link:hover,.tiled-gallery a,.tiled-gallery a:hover,.tiled-gallery a:focus,.widget-area .tiled-gallery a,.widget-area .tiled-gallery a:hover,.widget-area .tiled-gallery a:focus .site-footer .widget-area .tiled-gallery a,.site-footer .widget-area .tiled-gallery a:hover,.site-footer .widget-area .tiled-gallery a:focus,.widget_wpcom_social_media_icons_widget ul li a:hover,.widget_wpcom_social_media_icons_widget ul li a:focus,.widget_recent_images a,.site-footer .widget_recent_images a,.widget_recent_images a:hover,.site-footer .widget_recent_images a:hover,.widget_recent_images a:focus,.site-footer .widget_recent_images a:focus,.widget_google_translate_widget a,.site-footer .widget_google_translate_widget a,.widget_google_translate_widget a:hover,.site-footer .widget_google_translate_widget a:hover,.widget_google_translate_widget a:focus,.site-footer .widget_google_translate_widget a:focus,.widget_google_translate_widget a img,.site-footer .widget_google_translate_widget a img{-webkit-box-shadow:none;box-shadow:none}@media screen and (max-width:47.9em){.wrap .main-navigation li li:hover,.wrap .main-navigation li li.focus{background:transparent}.wrap .main-navigation li li:hover>a,.wrap .main-navigation li li.focus>a{color:inherit}}body,.site-content-contain,.navigation-top,.main-navigation ul,.main-navigation ul ul,#infinite-footer .container{background-color:#232323}.site-header,.single-featured-image-header{background-color:#1e1e1e}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea,select,fieldset{background-color:#1c1c1c}pre,mark,ins,button.secondary,input[type="reset"],input[type="button"].secondary,input[type="reset"].secondary,input[type="submit"].secondary,.prev.page-numbers,.next.page-numbers{background-color:#545454}button.secondary:hover,button.secondary:focus,input[type="reset"]:hover,input[type="reset"]:focus,input[type="button"].secondary:hover,input[type="button"].secondary:focus,input[type="reset"].secondary:hover,input[type="reset"].secondary:focus,input[type="submit"].secondary:hover,input[type="submit"].secondary:focus,hr{background-color:#828282}tr,thead th,.widget .tagcloud a,.widget.widget_tag_cloud a,.wp_widget_tag_cloud a,.widget_goodreads div[class^="gr_custom_each_container"],#infinite-footer .container{border-color:#545454}.single-featured-image-header,.navigation-top,.main-navigation li,.entry-footer,#comments,.widget ul li{border-bottom-color:#545454}.navigation-top,.main-navigation>div>ul,.pagination,.comment-navigation,.entry-footer,.site-footer,.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child),.widget ul li{border-top-color:#545454}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea,select,fieldset,.widget .tagcloud a:hover,.widget .tagcloud a:focus,.widget.widget_tag_cloud a:hover,.widget.widget_tag_cloud a:focus,.wp_widget_tag_cloud a:hover,.wp_widget_tag_cloud a:focus{border-color:#828282}.main-navigation ul li.menu-item-has-children:after,.main-navigation ul li.page_item_has_children:after{border-bottom-color:#232323}.entry-content a img,.widget a img{color:#232323}.social-navigation a,.site .jetpack_widget_social_icons ul li a{color:#232323}.social-navigation a:hover,.social-navigation a:focus,.site .jetpack_widget_social_icons ul li a:focus,.site .jetpack_widget_social_icons ul li a:hover{color:#070707}body,input,select,textarea,h3,h4,h6,label,.entry-title a,.twentyseventeen-front-page .panel-content .recent-posts article,.entry-footer .cat-links a,.entry-footer .tags-links a,.format-quote blockquote,.nav-title,.comment-body,input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="number"]:focus,input[type="tel"]:focus,input[type="range"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="time"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="color"]:focus,textarea:focus,button.secondary,input[type="reset"],input[type="button"].secondary,input[type="reset"].secondary,input[type="submit"].secondary,a,.site-title,.site-title a,.navigation-top a,.dropdown-toggle,.menu-toggle,.page .panel-content .entry-title,.page-title,body.page:not(.twentyseventeen-front-page) .entry-title,.page:not(.twentyseventeen-front-page) .entry-title,.page-links a .page-number,.comment-metadata a.comment-edit-link,.comment-reply-link .icon,h2.widget-title,mark,.post-navigation a:focus .icon,.post-navigation a:hover .icon,.blog .entry-meta a.post-edit-link,.archive .entry-meta a.post-edit-link,.search .entry-meta a.post-edit-link,.twentyseventeen-panel .recent-posts .entry-header .edit-link,.widget_goodreads div[class^="gr_custom_container"],.widget_goodreads div[class^="gr_custom_container"] a,div#jp-relatedposts .jp-relatedposts-post-title a,#infinite-footer .blog-info a,#infinite-footer .blog-credits,#infinite-footer .blog-credits a{color:#fff}::-webkit-input-placeholder{color:#fff}:-moz-placeholder{color:#fff}::-moz-placeholder{color:#fff}:-ms-input-placeholder{color:#fff}.main-navigation li li:hover,.main-navigation li li.focus{color:#fff}.main-navigation li li:hover>a,.main-navigation li li.focus>a{color:#606060}button:hover,button:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus,.site-main #infinite-handle span:hover,.site-main #infinite-handle span:focus,.site-main #infinite-handle span:hover button,.site-main #infinite-handle span:hover button:hover,.site-main #infinite-handle span:hover button:focus .site-main #infinite-handle span:focus button,.site-main #infinite-handle span:focus button:hover,.site-main #infinite-handle span:focus button:focus{color:#606060}.entry-footer .edit-link a.post-edit-link,button,input[type="button"],input[type="submit"],.site-main #infinite-handle span,.site-main #infinite-handle span button{color:#070707}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,input[type="number"]:focus,input[type="tel"]:focus,input[type="range"]:focus,input[type="date"]:focus,input[type="month"]:focus,input[type="week"]:focus,input[type="time"]:focus,input[type="datetime"]:focus,input[type="datetime-local"]:focus,input[type="color"]:focus,textarea:focus,.bypostauthor>.comment-body>.comment-meta>.comment-author .avatar,div#jp-relatedposts h3.jp-relatedposts-headline em:before{border-color:#fff}.entry-footer .cat-links .icon,.entry-footer .tags-links .icon,h5,.main-navigation a:hover,.entry-meta,.entry-meta a,.nav-subtitle,.comment-metadata,.comment-metadata a,.no-comments,.comment-awaiting-moderation,.page-numbers.current,.page-links .page-number,.site-description,.site-header .navigation-top .menu-scroll-down,.widget_rss .rss-date,.widget_rss li cite{color:#ee0}h2,blockquote,input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"],input[type="number"],input[type="tel"],input[type="range"],input[type="date"],input[type="month"],input[type="week"],input[type="time"],input[type="datetime"],input[type="datetime-local"],input[type="color"],textarea,.navigation-top .current-menu-item>a,.navigation-top .current_page_item>a,.entry-content blockquote.alignleft,.entry-content blockquote.alignright,.taxonomy-description,.site-info a,.wp-caption{color:#ee0}button:hover,button:focus,input[type="button"]:hover,input[type="button"]:focus,input[type="submit"]:hover,input[type="submit"]:focus,.prev.page-numbers:focus,.prev.page-numbers:hover,.next.page-numbers:focus,.next.page-numbers:hover,.entry-footer .edit-link a.post-edit-link:focus,.entry-footer .edit-link a.post-edit-link:hover,.main-navigation li li:hover,.main-navigation li li.focus,.social-navigation a,.site .jetpack_widget_social_icons ul li a,.site-main #infinite-handle span:hover,.site-main #infinite-handle span:focus{background-color:#ee0}.main-navigation ul ul,abbr,acronym{border-color:#ee0}.main-navigation ul li.menu-item-has-children:before,.main-navigation ul li.page_item_has_children:before{border-bottom-color:#ee0}button,input[type="button"],input[type="submit"],input[type="submit"],.entry-footer .edit-link a.post-edit-link,.social-navigation a:hover,.social-navigation a:focus,.site .jetpack_widget_social_icons ul li a:focus,.site .jetpack_widget_social_icons ul li a:hover,.site-main #infinite-handle span{background-color:red}a:hover,a:active,.entry-content a:focus,.entry-content a:hover,.entry-summary a:focus,.entry-summary a:hover,.widget a:focus,.widget a:hover,.site-footer .widget-area a:focus,.site-footer .widget-area a:hover,.posts-navigation a:focus,.posts-navigation a:hover,.comment-metadata a:focus,.comment-metadata a:hover,.comment-metadata a.comment-edit-link:focus,.comment-metadata a.comment-edit-link:hover,.comment-reply-link:focus,.comment-reply-link:hover,.widget_authors a:focus strong,.widget_authors a:hover strong,.entry-title a:focus,.entry-title a:hover,.entry-meta a:focus,.entry-meta a:hover,.colors-dark.blog .entry-meta a.post-edit-link:focus,.colors-dark.blog .entry-meta a.post-edit-link:hover,.colors-dark.archive .entry-meta a.post-edit-link:focus,.colors-dark.archive .entry-meta a.post-edit-link:hover,.colors-dark.search .entry-meta a.post-edit-link:focus,.colors-dark.search .entry-meta a.post-edit-link:hover,.page-links a:focus .page-number,.page-links a:hover .page-number,.entry-footer .cat-links a:focus,.entry-footer .cat-links a:hover,.entry-footer .tags-links a:focus,.entry-footer .tags-links a:hover,.post-navigation a:focus,.post-navigation a:hover,.pagination a:not(.prev):not(.next):focus,.pagination a:not(.prev):not(.next):hover,.comments-pagination a:not(.prev):not(.next):focus,.comments-pagination a:not(.prev):not(.next):hover,.logged-in-as a:focus,.logged-in-as a:hover,a:focus .nav-title,a:hover .nav-title,.edit-link a:focus,.edit-link a:hover,.site-info a:focus,.site-info a:hover,.widget .widget-title a:focus,.widget .widget-title a:hover,.widget ul li a:focus,.widget ul li a:hover{color:#fa6060}
